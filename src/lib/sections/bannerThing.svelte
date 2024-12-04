@@ -42,7 +42,7 @@
 		padding-left: 5rem;
 		padding-bottom: 2rem;
 
-		font-family: var(--font-transitional);
+		font-family: var(--font-humanist);
 		letter-spacing: var(--font-letterspacing-1);
 
 		background-color: rgba(0, 0, 0, 0.1);
@@ -52,12 +52,12 @@
 	}
 
 	h1 {
-		font-size: var(--size-9);
+		font-size: var(--size-7);
 		font-weight: var(--font-weight-9);
 	}
 
 	h2 {
-		font-size: var(--size-9);
+		font-size: var(--size-7);
 		font-weight: var(--font-weight-1);
 	}
 

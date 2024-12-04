@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { Banner } from '$lib';
+	import { Banner, Projects } from '$lib';
 </script>
 
-<Banner />
+<!-- <Banner /> -->
+<Projects />
