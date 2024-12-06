@@ -2,5 +2,5 @@
 	import { Banner, Projects } from '$lib';
 </script>
 
-<!-- <Banner /> -->
+<Banner />
 <Projects />

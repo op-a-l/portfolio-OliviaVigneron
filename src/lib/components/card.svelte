@@ -21,8 +21,10 @@
 		position: relative;
 		overflow: hidden;
 
-		width: auto;
+		width: var(--size-12);
 		aspect-ratio: var(--ratio-square);
+
+		border-radius: var(--radius-3);
 	}
 	:hover {
 		transition: all;
