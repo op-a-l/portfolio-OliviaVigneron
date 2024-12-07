@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let videoBackground = '/testCameleon.mp4';
+	export let videoBackground = '/videos/testCameleon.mp4';
 </script>
 
 <div class="banner">

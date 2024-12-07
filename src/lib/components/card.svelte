@@ -13,6 +13,9 @@
 
 <style>
 	.container {
+		transition: all;
+		transition-duration: 1s;
+
 		display: flex;
 		gap: var(--size-4);
 		justify-content: center;
@@ -28,8 +31,8 @@
 	}
 	:hover {
 		transition: all;
-		transition-duration: 300ms;
-		backdrop-filter: blur(var(--size-2));
+		transition-duration: 200ms;
+		backdrop-filter: blur(var(--size-1)) grayscale(50%);
 	}
 
 	.imageContainer {
@@ -59,6 +62,9 @@
 	}
 
 	.hoverBaby {
+		transition: all;
+		transition-duration: 1s;
+
 		z-index: 10;
 		color: transparent;
 
@@ -74,7 +80,7 @@
 	}
 	:hover {
 		transition: all;
-		transition-duration: 300ms;
+		transition-duration: 200ms;
 		color: var(--pink-12);
 	}
 </style>
